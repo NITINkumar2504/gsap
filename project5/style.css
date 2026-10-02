@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#page1, #page2, #page3 {
+    width: 100%;
+    height: 100vh;
+}
+
+#move{
+    background-color: #D8FF04;
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#marque {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-shrink: 0; 
+    padding: 0 1rem;
+}
+
+#marque img{
+    height: 4.5rem;
+}
+
+#marque h1{
+    font-size: 5rem;
+}
